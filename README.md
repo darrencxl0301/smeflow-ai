@@ -22,15 +22,15 @@ A Portfolio MVP showing how AI is wired into a real business process (REST API, 
 
 | | What you see |
 |---|---|
-| **1. Invoice processing**<br>[▶ TODO video link]() | Upload a supplier PDF → fields extracted → checked against the purchase order and for duplicates → reviewer approves → invoice recorded and confirmation email sent |
-| **2. Email-to-action**<br>[▶ TODO video link]() | Customer emails "send me invoice for ORD-1024" → classified → sender and order ownership verified → PDF + draft reply → reviewer verifies recipient and order → approved → arrives in the inbox. Someone else's order is refused |
-| **3. Problems caught before approval**<br>[▶ TODO video link]() | Duplicate invoice blocked, amount mismatch shown with both numbers, missing PO picked from known purchase orders and verified by the reviewer, then re-validated |
+| **1. Invoice processing**<br>[▶ Watch (1 min)](assets/demo-1-invoice.mp4) | Upload a supplier PDF → fields extracted → checked against the purchase order and for duplicates → reviewer approves → invoice recorded and confirmation email sent |
+| **2. Email-to-action**<br>[▶ Watch (1 min)](assets/demo-2-email.mp4) | Customer emails "send me invoice for ORD-1024" → classified → sender and order ownership verified → PDF + draft reply → reviewer verifies recipient and order → approved → arrives in the inbox. Someone else's order is refused |
+| **3. Problems caught before approval**<br>[▶ Watch (about 1 min)](assets/demo-3-problems.mp4) | Duplicate invoice blocked, amount mismatch shown with both numbers, missing PO picked from known purchase orders and verified by the reviewer, then re-validated |
 
 > **About the demo.** To keep the videos short, everything is shown with a single account (an admin of one demo company). The system itself separates companies and roles: other companies cannot see this data, and staff accounts can review but not approve. The checks, approval rules and workflow steps shown here are examples for a small business, and they can be adjusted to a company's own process and details.
 
 ## Dashboard
 
-![Dashboard with workflow counts, pending approvals, routing mix and workflow list](docs/dashboard.png)
+![Dashboard with workflow counts, pending approvals, routing mix and workflow list](assets/dashboard.png)
 
 Workflow counts by outcome, items waiting for approval, how often a human reviews, how emails were routed (rules, decision model, LLM), and how many duplicates and access attempts were blocked.
 
