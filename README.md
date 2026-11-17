@@ -24,6 +24,7 @@ A Portfolio MVP showing how AI is wired into a real business process (REST API, 
 Upload a supplier PDF → fields extracted → checked against the purchase order and for duplicates → reviewer approves → invoice recorded and confirmation email sent.
 
 VIDEO_1
+https://github.com/user-attachments/assets/91f46de4-57fe-4b83-8001-487071633713
 
 ### 2. Email-to-action
 Customer emails "send me invoice for ORD-1024" → classified → sender and order ownership verified → PDF + draft reply → reviewer verifies recipient and order → approved → arrives in the inbox. Someone else's order is refused.
