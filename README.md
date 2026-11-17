@@ -23,18 +23,23 @@ A Portfolio MVP showing how AI is wired into a real business process (REST API, 
 ### 1. Invoice processing
 Upload a supplier PDF → fields extracted → checked against the purchase order and for duplicates → reviewer approves → invoice recorded and confirmation email sent.
 
-VIDEO_1
 https://github.com/user-attachments/assets/91f46de4-57fe-4b83-8001-487071633713
+
+[⬇ Download MP4](assets/demo-1-invoice.mp4)
 
 ### 2. Email-to-action
 Customer emails "send me invoice for ORD-1024" → classified → sender and order ownership verified → PDF + draft reply → reviewer verifies recipient and order → approved → arrives in the inbox. Someone else's order is refused.
 
-VIDEO_2
+https://github.com/user-attachments/assets/00dee19c-d2b5-485f-80c5-391e2da514de
+
+[⬇ Download MP4](assets/demo-2-email.mp4)
 
 ### 3. Problems caught before approval
 Duplicate invoice blocked, amount mismatch shown with both numbers, missing PO picked from known purchase orders and verified by the reviewer, then re-validated.
 
-VIDEO_3
+https://github.com/user-attachments/assets/3e99665f-ab91-431d-b19f-801087d4262a
+
+[⬇ Download MP4](assets/demo-3-problems.mp4)
 
 > **About the demo.** To keep the videos short, everything is shown with a single account (an admin of one demo company). The system itself separates companies and roles: other companies cannot see this data, and staff accounts can review but not approve. The checks, approval rules and workflow steps shown here are examples for a small business, and they can be adjusted to a company's own process and details.
 
